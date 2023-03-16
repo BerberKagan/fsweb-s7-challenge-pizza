@@ -1,3 +1,52 @@
+SUNUM
+Projesini sunma becerisi.
+Kodun nasıl çalıştığını ifade edebilme becerisi.
+Süre kullanımı
+
+DESIGN, CSS
+Sayfalar arası tutarlı bir layout kullanılmış mı?
+CSS kullanılırken selector kullanımı nasıl; etiket mi, id mi, tag mi kullanılmış?
+Flex kullanılmış mı, ortalama ve hizalama yapılmış mı?
+HTML yapısı anlamlı mı? Semantik tagler kullanılmış mı?
+Tasarım uyarlama yeteneği (1-5)
+
+ROUTING
+Sipariş gönderildikten sonra, onay sayfasına yönlendirme eklenmiş mi?
+Route ve linklerin yapısı doğru mu?
+Tüm pathlerde görünmesi istenen kısımlar route dışında bırakılmış mı?
+
+FORM ELEMENTS
+Form elemanları semantik olarak, name, value, id, placeholder gibi attribute içeriyor mu?
+Checkbox, radiobutton spesifik semantik doğru mu?
+Form elemanları ile labellar eşleştirilmiş mi?
+Tasarımda olmadığı halde, readme'den fark edilip isim alanı eklenmiş mi?
+Changehander ile state güncelleniyor mu?
+Validation eklenmiş mi?
+Form anlayış seviyesi (1-5)
+
+YUP
+Form field testleri anlamlı yazılmış mı? "checkbox one of true or false" gibi
+Errorlar sayfada görünüyor mu?
+Yup anlayış seviyesi (1-5)
+
+React
+Form seçenekleri state'ten okunuyor mu?
+Tüm form değerleri state'e ekleniyor mu?
+Componentlara bölünmüş mü?
+Map kullanmış mı?
+Türkçe karakter kullanılmış mı?
+Genel React anlayışı (1-5)
+
+Axios
+Form verilerini reqres.io'ya atıp geri alıyor mu?
+Sipariş başarılı sayfasında sipariş özetini gösteriyor mu?
+
+TEST
+Kaç test yazılmış?
+Testlerde validation kuralları test ediliyor mu?
+Her alan test ediliyor mu?
+E2E home-success sipariş testi var mı?
+
 # Tek Sayfa Uygulamalar Sprint Challenge
 
 **Talimatları dikkatlice okuyun. Sprint Challenge'a başlamadan neler istendiğini tam olarak anladığınıza emin olun.**
@@ -104,8 +153,17 @@ Gerekli öğelerinizi bitirdikten sonra çalışmanızı daha da ileri götüreb
 Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınızı gösterin. Her sorudan sonra yanıtlarınızı eklemek için bu belgeyi düzenleyin.
 
 1. 1-2 cümle ile, React'ın `useRouteMatch` hookunun ne için kullanıdığını açıklayın.
+
+Bu hook; uygulamanıza iç içe rotalar eklememizi sağlar, böylece URL'deki tek bir parametreyi tümünü değiştirmek zorunda kalmadan değiştirebiliriz.
+
 2. Daha önce hiç programlama yapmamış birine form validationı(doğrulama) nasıl açıklarsınız?
+
+Form validation kullanıcıdan aldığımız verilerin doğru formatta olup olmadığını kontrol etmek amacıyla kullanılan bir yapıdır. Onaylama kontrolünün amacı web uygulamalarında kullanıcıların girmiş olduğu verilerin veritabanına kaydedilmeden önce istenen şartları sağlayıp sağlamadığını kontrol etmektir.
+
 3. 1-2 cümle ile, uç uca testlerin ne işe yaradığını açıklayın.
+
+Uçtan uca test, kullanıcı deneyiminin tamamını uçtan uca inceler. Uçtan uca testler "kullanıcı, bir eylemi gerçekleştirebilir mi?" sorusunu sorar. Uçtan uca testler kullanıcı arayüzüne(UI) odaklanır ve bir kullanıcının bir uygulama ile nasıl etkileşime girebileceğini taklit ederek button click’leri, scroll’ları(kaydırmalar), form gönderimleri ve benzeri gerçek olayları simüle eder.
+
 
 ## SSS
 
